@@ -4,7 +4,7 @@ Official implementation of ["Toward Reliable, Reproducible, and Practical Human 
 
 The overall framework of the proposed GEOM:
 
-![pipeline](pipeline.pdf)
+![pipeline](pipeline.png)
 
 The annotation interface with the dynamic evaluation algorithm can be run directly with the following command
 
