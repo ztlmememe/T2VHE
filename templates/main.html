@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Annotation Platform</title>
+</head>
+<script src="/static/script.js"></script>
+<body>
+
+
+    <div class="flex-container">
+        <div class="top-container">
+            <label for="userId">Enter User ID:</label>
+            <input type="text" id="userId" name="userId">
+            <button id="confirmBtn">Confirm</button>
+            <button id="resetBtn_Id">Reset</button>
+        </div>
+        <div class="welcome-text">
+            Please click the corresponding indicator button to view the guidelines before selecting!
+        </div>
+    </div>
+    
+    <div id="videoContainer">
+
+    </div>
+
+    <div id="instructionModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalText">Some text in the Modal..</p>
+        </div>
+    </div>
+  
+
+
+    <div id="videoInfo" class="videoInfo-container">Loading...</div>
+    <div class="button-container">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+        <input type="number" id="pairIndex" placeholder="Enter video pair number">
+        <button id="jumpBtn">Jump to Video Pair</button>
+        <button id="resetBtn_index">Reset</button>
+    </div>
+    
+
+    <link rel="stylesheet" href="/static/style.css">
+   
+</body>
+
+</html>
