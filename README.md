@@ -2,7 +2,7 @@
 
 Official implementation of ["Toward Reliable, Reproducible, and Practical Human Evaluation Protocol for Text-to-Video Models"](https://arxiv.org/abs/2402.05011).
 
-The overall framework of the proposed GEOM:
+The overall framework of the proposed T2VHE:
 
 ![pipeline](pipeline-1.png)
 
