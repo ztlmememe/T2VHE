@@ -1,6 +1,6 @@
 # T2VHE
 
-Official implementation of ["Toward Reliable, Reproducible, and Practical Human Evaluation Protocol for Text-to-Video Models"](https://arxiv.org/abs/2402.05011).
+Official implementation of ["Rethinking Human Evaluation Protocol for Text-to-Video Models: Enhancing Reliability, Reproducibility, and Practicality"](https://arxiv.org/abs/2402.05011).
 
 The overall framework of the proposed T2VHE:
 
